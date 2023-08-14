@@ -34,10 +34,11 @@ This directory contains the Kubernetes configuration files for deploying and man
 - [mongo-pvc.yaml](k8s/mongo-pvc.yaml): Defines a PersistentVolumeClaim (PVC) to bind to the PV for MongoDB.
 
 ## Usage
+To launch the application click on this ip:
+[yolo k8s link](http://34.135.226.223/)
 
 To deploy the resources to your Kubernetes cluster, use the following commands:
 
 ```bash
 kubectl apply -f k8s/
-To launch the application click on this ip:
-[yolo k8s link](http://34.135.226.223/)
+
