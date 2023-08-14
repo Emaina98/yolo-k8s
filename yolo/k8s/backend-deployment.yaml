@@ -20,7 +20,7 @@ spec:
           env:
             - name: MONGO_URI
               value: "mongodb://localhost:27017/mongodb"
-          resources:
+          resources:  # memory updated
             limits:
               cpu: "1"
               memory: "512Mi"
