@@ -29,4 +29,5 @@ spec:
         accessModes: [ "ReadWriteOnce" ]
         resources:
           requests:
-            storage: 1Gi  # Adjust the storage size as needed
+            storage: 1Gi  
+# mongo statefulsets with persistent volumes
