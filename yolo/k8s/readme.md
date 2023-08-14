@@ -39,3 +39,5 @@ To deploy the resources to your Kubernetes cluster, use the following commands:
 
 ```bash
 kubectl apply -f k8s/
+To launch the application click on this ip:
+[yolo k8s link](http://34.135.226.223/)
