@@ -14,7 +14,17 @@ spec:
     spec:
       containers:
         - name: client
-          image: emaina98/client-yolo:v2.0.0
+          image: emaina98/client-yolo:v2.0.1
           ports:
             - containerPort: 80
+          env:
+            - name: BACKEND_URL
+              value: http://backend-service:5000
+          resources:
+            limits:
+              cpu: "1"
+              memory: "512Mi"
+            requests:
+              cpu: "0.5"
+              memory: "256Mi"
 # client deployment yaml file
