@@ -35,7 +35,7 @@ This directory contains the Kubernetes configuration files for deploying and man
 
 ## Usage
 To launch the application click on this ip:
-[yolo k8s link](http://34.135.226.223/)
+[34.135.226.223](http://34.135.226.223/)
 
 To deploy the resources to your Kubernetes cluster, use the following commands:
 
