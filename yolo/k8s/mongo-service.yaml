@@ -4,8 +4,7 @@ metadata:
   name: localhost
 spec:
   selector:
-    app: client
+    app: mongo
   ports:
-    - protocol: TCP
-      port: 27017
+    - port: 27017
       targetPort: 27017

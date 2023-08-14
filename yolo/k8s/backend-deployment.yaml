@@ -18,9 +18,9 @@ spec:
           ports:
             - containerPort: 5000
           env:
-            - name: MONGO_URI
-              value: localhost
-          resources:  # memory updated
+            - name: MONGO_URL
+              value: mongodb://localhost:27017/yolomy
+          resources:
             limits:
               cpu: "1"
               memory: "512Mi"
