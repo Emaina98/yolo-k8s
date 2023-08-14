@@ -5,6 +5,8 @@ import NewProductForm from './NewProductForm';
 import ProductDetail from './ProductDetail';
 import AddProduct from './AddProduct';
 import EditProductForm from './EditProductForm';
+const url = process.env.BACKEND_URL || "http://localhost:5000"
+
 // import tshirt from '../images/products/tshirt.png';
 // import backpack from '../images/products/backpack.png';
 // import pants from '../images/products/pants.png';
@@ -78,7 +80,7 @@ class ProductControl extends Component {
     }
     
     componentDidMount(){
-        const url = process.env.BACKEND_URL || "http://localhost:5000"
+        console.log(" get products called", url)
         axios.get(url+'/api/products')
             .then(res =>{
                 console.log(res)

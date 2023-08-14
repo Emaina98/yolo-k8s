@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: emaina98/client-yolo:v2.0.1
+          image: emaina98/client-yolo:v2.0.2
           ports:
             - containerPort: 80
           env:
