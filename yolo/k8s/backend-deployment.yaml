@@ -19,7 +19,7 @@ spec:
             - containerPort: 5000
           env:
             - name: MONGO_URI
-              value: "mongodb://localhost:27017/mongodb"
+              value: localhost
           resources:  # memory updated
             limits:
               cpu: "1"
